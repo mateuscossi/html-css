@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+h1 {
+    background-color: wheat;
+    height: 100px;
+    width: 300px;
+
+    border-radius: 10px;
+
+    border: 10px solid rgb(255, 212, 133);
+
+    padding: 10px 10px 10px 10px;
+    /*
+    Ou padding: 10px;
+    Ou padding: 10px auto 10px auto;
+    */
+
+    margin: 10px 10px 10px 10px;
+    /*
+    Ou margin: 10px;
+    Ou margin: 10px auto 10px auto;
+    */
+
+    outline: 5px dashed salmon;
+}
+
+a {
+    border-radius: 5px;
+    border-width: 3px ;
+    border-style: solid;
+    border-color: rgb(255, 212, 133);
+    padding: 2px 2px 2px 2px;
+    color: rgb(255, 166, 0);
+    text-decoration: none;
+}

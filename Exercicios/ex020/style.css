@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: wheat;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    width: 900px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.452);
+}
+
+div {
+    display: inline-block;
+    background-color: rgba(245, 206, 179, 0.884);
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+
+div:hover {
+    background-color: rgb(219, 185, 161);
+}
+
+a {
+    color: wheat;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(83, 77, 64);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: bisque;
+}
+
+a:active {
+    color: rgb(131, 119, 98);
+}
+
+a::after {
+    content: ' [link]';
+    color: rgba(209, 191, 160, 0.384);
+}

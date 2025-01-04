@@ -1,0 +1,41 @@
+@charset "UTF 8";
+
+/*
+ Tudo que é ID em HTML em CSS é #
+ Tudo que é Class em HTML em CSS é .
+*/
+
+body {
+    background-color: rgb(0, 174, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgba(15, 9, 71, 0.74);
+    width: 900px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+h1#tituloprim /*Ou só #tituloprim, não necessariamente precisa do H1, por alguns motivos. É só lembrar, Mateus*/{
+    text-align: center;
+    background-color: rgb(81, 200, 255);
+    border-radius: 20px;
+}
+
+p {
+    text-align: justify;
+    font-size: 1.3em;
+}
+
+h1.titulosecun{
+    text-align: center;
+    text-decoration: underline rgb(81, 200, 255);
+}
+
+p#credito {
+    text-align: center;
+    font-size: 0.8em;
+}

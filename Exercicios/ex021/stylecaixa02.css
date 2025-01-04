@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(183, 232, 255);
+    text-align: center;
+    margin: 0px;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    margin: none;
+    padding: 7px;
+}
+
+nav {
+    background-color: rgb(127, 214, 255);
+    padding: 3px;
+    margin: none;
+    box-shadow: 2px 3p 5px rgba(0, 0, 0, 0.37);
+}
+
+nav > a {
+    margin: 40px;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+aside > p {
+    background-color: rgb(108, 208, 255);
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    padding: 7px;
+    margin: 10px;
+    border-radius: 3px;
+    box-shadow: 3px 5px 3px rgba(0, 0, 0, 0.452);
+}
+
+footer {
+    background-color: rgb(150, 190, 209);
+    margin: auto;
+    padding: 7px;
+    text-decoration: underline;
+    width: 300px;
+    color: white;
+}
+
+h2 {
+    text-decoration: underline rgb(20, 181, 255);
+}

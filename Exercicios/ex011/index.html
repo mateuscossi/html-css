@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1><mark style="background-color: cadetblue;">Imagem dinâmica</mark></h1>
+    <hr>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(min-width: 1077px)" srcset="imagens/foto-g.png" type="image/png">
+        <source media="(min-width: 747px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-p.png" alt="imagem flexível">
+    </picture>
+    <br>
+    <h1><mark style="background-color: cadetblue;">Reproduzindo Áudio</mark></h1>
+    <hr>
+    <p>Vamos aprender a repruduir áudios em HTML5</p>
+    <audio preload="metadata" controls>
+        <source src="midias/Musica_de_raligith_de_vri_vrai.mp3" type="audio/mpeg">
+        <source src="midias/Musica_de_raligith_de_vri_vrai.mp3" type="audio/ogg">
+        <source src="midias/Musica_de_raligith_de_vri_vrai.mp3" type="audio/wav"> <!--é ruim usar esse wav-->>
+    </audio>
+    <p>Infelizmente seu navegador não tanka reproduzir áudio</p>
+    <p><a href="midias/Musica_de_raligith_de_vri_vrai.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+</body>
+</html>

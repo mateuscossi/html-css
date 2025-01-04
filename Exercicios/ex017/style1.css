@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'sweet' ;
+    src: url(fonts/sweercandies.otf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+    /* 
+    Tipos de format
+    - opentype (otf)
+    - truetype (ttf)
+    - embedded-opentype (otf)
+    - truetype-aat (Apple Ad Tyupography)
+    - svg
+    */
+}
+
+*{
+    text-align: center;
+    font-family: 'sweet'
+
+    /* 
+    Medidas Absolutas
+    cm, mm, in (polegadas), px, pt, pc
+    
+    Medidas Relativas
+    em, ex, rem, vw, vh, %
+    */
+}
+
+body {
+    background-color: #00b7ff;
+}
+
+main {
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.253);
+}
+
+h1 {
+    /* Shorthand font
+     font-style -> font-weight -> font-size -> font-family */
+     font: italic bolder 3em 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    /* Shorthand font
+     font-style -> font-weight -> font-size -> font-family */
+     font: italic bolder 3em 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-size: 2em;
+}

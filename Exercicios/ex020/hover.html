@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover</title>
+<style>
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: wheat;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    width: 900px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.452);
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    color: white;
+    background-color: rgb(247, 208, 137);
+    border-radius: 10px;
+}
+
+div:hover {
+    color: rgb(247, 208, 137);
+}
+
+</style>
+</head>
+<body>
+    <main>
+        <h1>Testando o Hover</h1>
+        <p>Passe o mouse no texto abaxio</p>
+        <div>
+            Passe o mouse aqui
+            <p>Você encontrou o texto escondido</p>
+        </div>
+    </main>
+</body>
+</html>
