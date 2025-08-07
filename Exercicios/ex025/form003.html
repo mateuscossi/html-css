@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        body {
+            background-color: seashell;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        main {
+            width: 290px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.141);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        h1 {
+            text-align: center;
+            text-decoration: underline #ffcca7;
+        }
+        input {
+            width: 280px;
+            height: 25px;
+            padding: 3px;
+            border-radius: 5px;
+            border: 1px solid black;
+            font-size: 0.85em;
+        }
+        input.botao {
+            margin: 0px;
+            padding: 0px;
+            width: 140px;
+            height: 35px;
+            background-color: #ffcca7;
+            border-radius: 10px;
+            border: 0px solid;
+            font-size: 1.1em;
+        }
+        input.botao:hover {
+            cursor: pointer;
+            background-color: #d7a988;
+            border: 1px solid #1a0b00;
+
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Formulário</h1>
+        <form action="cadastro.php">
+            <p>
+                <label for="nome">Nome: </label> <br>
+                <input type="text" name="nome" id="nome" required maxlength="30" placeholder="Nome Completo" autocomplete="name">
+            </p>
+            <p>
+                <label for="media">Média: </label> <br>
+                <input type="number" name="media" id="media" required placeholder="0 a 10" min="1" max="10" step="0.1" > <!--value é baiscamente é a caixa começar com um valor, exemplo: value="5", vai começar com 5-->
+            </p>
+            <p>
+                <label for="mes">Período Letivo: </label> <br>
+                <input type="month" name="mes" id="media" required>
+                <!-- value="2010-06" -->
+            </p>
+            <p>
+                <label for="dia">Dia da prova: </label> <br>
+                <input type="date" name="dia" id="dia" required>
+            </p>
+            <p>
+                <label for="hora">Horario da Prova: </label> <br>
+                <input type="time" name="hora" id="hora" required>
+            </p>
+            <p>
+                <input type="submit"  value="Enviar" class="botao">
+                <input type="reset" value="Limpar" class="botao">
+            </p>
+        </form>
+    </main>
+</body>
+</html>
